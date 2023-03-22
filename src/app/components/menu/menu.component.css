@@ -1,0 +1,31 @@
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes ul li{
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.social{
+    color: #d6dae4;
+}
+
+.btn{
+    background-color: #d6dae4;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #9c9d9e;
+}
+.social:hover{
+    color: #9c9d9e;
+}
+.nav-link:hover{
+    background-color: #9c9d9e;
+}
+
