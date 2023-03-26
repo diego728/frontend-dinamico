@@ -1,0 +1,86 @@
+
+*{
+    color: aliceblue;
+}
+.acercade{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+.btn-edit{
+    margin-top: auto;
+    margin-left: auto;
+    /*visibility: hidden;*/ /*para hacerlos invisibles a los botones de edicion*/
+}
+.btn-user{
+    float: right;
+}
+.container-fluid{
+    background-color: #212529;
+    height: 200px;
+}
+#foto-user{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+}
+.divfoto{
+    width: 200px;
+    height: 200px;
+    bottom: 0%;
+    margin-left: 35%;
+}
+.usuario{
+    height: 200px;
+}
+.div1{
+    width: 50%;
+    height: 100px;
+}
+.div2{
+    width: 80%;
+}
+h5,
+h6 {
+    
+    display: flex;
+    justify-content: center;
+
+}
+/*.nombre{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    bottom: -10px;
+}
+.acercade{
+    width: 750px;
+}
+.foto-user{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    height: 200px;
+}
+.img-texto{
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    height: 300px;
+}
+.divfoto{
+    display: block;
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 35%;
+}
+*/
