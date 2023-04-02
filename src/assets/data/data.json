@@ -1,0 +1,131 @@
+{
+    "nombre": "Diego",
+    "apellido": "Pereyra",
+    "edad": "37 años",
+    "direccion": {
+        "ciudad": "Córdoba",
+        "pais": "Argentina",
+        "codPostal": 5012
+    },
+    "educacion": [
+        {
+            "nombre": "Univerisas Tecnologica Nacional",
+            "foto": "urlfoto"
+        },
+        {
+            "nombre": "Instituto2",
+            "foto": "urlFOto2"
+        }
+    ],
+    "trabajos": [
+        {
+            "titulo": "Frontend Developer",
+            "fechaInicio": 2019,
+            "fechaFin":2020,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "imagen": "../../../assets/imagenes/front.jpg",
+            "info": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque repudiandae mollitia"
+        },
+        {
+            "titulo": "Backend Developer",
+            "fechaInicio": 2020,
+            "fechaFin":2021,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "imagen": "../../../assets/imagenes/back.png",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque repudiandae mollitia praesentium modi quam iste quod. Ut neque consequuntur non saepe rem enim porro nemo? Quis quia perspiciatis architecto!"
+        },
+        {
+            "titulo": "Fullstack Developer",
+            "fechaInicio": 2021,
+            "fechaFin":2022,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "imagen": "../../../assets/imagenes/full1.jpg",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque repudiandae mollitia praesentium modi quam iste quod.Quis quia perspiciatis architecto!"
+        }
+    ],
+    "proyectos": [
+        {
+            "nombre": "Proyecto1",
+            "foto": "urlfoto"
+        },
+        {
+            "nombre": "proyecto2",
+            "foto": "urlFOto2"
+        },
+        {
+            "nombre": "proyecto3",
+            "foto": "urlFOto3"
+        }
+    ],
+    "hskill": [
+        {
+            "nombre": "HTML5",
+            "porcentaje": 90,
+            "foto": "urlfotohtml"
+        },
+        {
+            "nombre": "CSS3",
+            "porcentaje": 90,
+            "foto": "urlFOtocss"
+        },
+        {
+            "nombre": "Java",
+            "porcentaje": 90,
+            "foto": "urlFOtojava"
+        },
+        {
+            "nombre": "Git",
+            "porcentaje": 80,
+            "foto": "urlFOtogit"
+        },
+        {
+            "nombre": "MySQL",
+            "porcentaje": 90,
+            "foto": "urlFOtomysql"
+        },
+        {
+            "nombre": "JavaScript",
+            "porcentaje": 90,
+            "foto": "urlFOtojs"
+        },
+        {
+            "nombre": "Angularjs",
+            "porcentaje": 80,
+            "foto": "urlFOtoangular"
+        }
+    ],
+    "sskill": [
+        {
+            "nombre": "TeamWork",
+            "porcentaje": 90,
+            "foto": "urlfototw"
+        },
+        {
+            "nombre": "Idea",
+            "porcentaje": 90,
+            "foto": "urlFOtoidea"
+        },
+        {
+            "nombre": "Creativity",
+            "porcentaje": 90,
+            "foto": "urlFOtoc"
+        },
+        {
+            "nombre": "Time",
+            "porcentaje": 90,
+            "foto": "urlFOtotime"
+        }
+    ],
+    "banner": [
+        "urlbanner1",
+        "urlbanner2"
+    ],
+    "fotoPerfil": [
+        "urlfp1",
+        "urlfp2"
+    ],
+    "acercaDe": "Si tienes claro desde un principio, qué objetivos quieres conseguir con tu blog y a quién te quieres dirigir, será un punto de partida clave para escribir un buen sobre mi."
+}

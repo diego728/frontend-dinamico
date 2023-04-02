@@ -1,0 +1,32 @@
+    <div class="titulo">
+        <h1 class="titulo-h1">Experiencia Laboral</h1>
+        <button type="button" class="btn btn-light">+Experiencia</button>
+    </div>
+<div class="d-flex">
+    <ul>
+    <li *ngFor="let experiencia of experienciaList">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-3 marco">
+                <img [src]="experiencia.imagen" alt="">
+            </div>
+            <div class="col-7">
+                <div>
+                    <h3>{{experiencia.titulo}} <h6 class="text-muted">{{experiencia.fechaInicio}} -
+                            {{experiencia.fechaFin}}</h6>
+                    </h3>
+                    <h5>{{experiencia.localidad}} - {{experiencia.pais}}</h5>
+                    <p>{{experiencia.info}}</p>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="btn-edit">
+                    <a href="" class="btn-right"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+    </li>
+</ul>
+</div>

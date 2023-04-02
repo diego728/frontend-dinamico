@@ -7,6 +7,9 @@ import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaComponent } from './components/acerca/acerca.component';
+import { BodyComponent } from './components/body/body.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -14,10 +17,13 @@ import { AcercaComponent } from './components/acerca/acerca.component';
     MenuComponent,
     HeaderComponent,
     BannerComponent,
-    AcercaComponent
+    AcercaComponent,
+    BodyComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
