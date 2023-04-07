@@ -7,6 +7,10 @@
 .titulo{
     display: flex;
     justify-content: space-between;
+
+}
+.educacion{
+    margin-top: -20px;
 }
 .titulo-h1{
     display: flex;
@@ -23,6 +27,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 img {
     width: 300px;
 }
