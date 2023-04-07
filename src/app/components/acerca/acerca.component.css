@@ -41,8 +41,8 @@
     width: 50%;
     height: 100px;
 }
-.div2{
-    width: 80%;
+.row{
+    margin-left: 110px;
 }
 h5,
 h6 {

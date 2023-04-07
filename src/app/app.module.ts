@@ -10,6 +10,7 @@ import { AcercaComponent } from './components/acerca/acerca.component';
 import { BodyComponent } from './components/body/body.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     BannerComponent,
     AcercaComponent,
     BodyComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,

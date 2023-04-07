@@ -9,12 +9,22 @@
     },
     "educacion": [
         {
-            "nombre": "Univerisas Tecnologica Nacional",
-            "foto": "urlfoto"
+            "titulo": "Univerisas Tecnologica Nacional",
+            "imagen": "../../../assets/imagenes/utn.png",
+            "fechaInicio":2017,
+            "fechaFin":2023,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "info":" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque repudiandae mollitia"
         },
         {
-            "nombre": "Instituto2",
-            "foto": "urlFOto2"
+            "titulo": "Argentina Programa",
+            "imagen": "../../../assets/imagenes/ap.png",
+            "fechaInicio":2022,
+            "fechaFin":2023,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "info":" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque repudiandae mollitia"
         }
     ],
     "trabajos": [
@@ -48,8 +58,13 @@
     ],
     "proyectos": [
         {
-            "nombre": "Proyecto1",
-            "foto": "urlfoto"
+            "titulo": "Calculadora",
+            "fechaInicio": 2021,
+            "fechaFin":2022,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "imagen": "../../../assets/imagenes/full1.jpg",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque repudiandae mollitia praesentium modi quam iste quod.Quis quia perspiciatis architecto!"
         },
         {
             "nombre": "proyecto2",
