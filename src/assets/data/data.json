@@ -9,7 +9,7 @@
     },
     "educacion": [
         {
-            "titulo": "Univerisas Tecnologica Nacional",
+            "titulo": "Universidad Tecnologica Nacional",
             "imagen": "../../../assets/imagenes/utn.png",
             "fechaInicio":2017,
             "fechaFin":2023,
