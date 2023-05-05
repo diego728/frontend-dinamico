@@ -2,25 +2,22 @@
     <div class="div1 d-flex position-relative">
         <div class="divfoto d-block position-absolute">
             <div class="usuario justify-content-center d-flex">
-                <img id="foto-user" src="../../../assets/imagenes/usuario.jpg" alt="">
+                <img id="foto-user" [src]="miPortfolio.fotoPerfil" alt="">
                 <div class="btn-edit btn-user">
                     <a href="" class="btn-right"><i class="fa fa-pencil" aria-hidden="true"></i></a>
                 </div>
             </div>
-                <h5 class="pb-1">Pereyra Diego</h5>
-                <h6>Desarrollador web</h6>
+                <h5 class="pb-1">{{miPortfolio.apellido}} {{miPortfolio.nombre}}</h5>
+                <h6>{{miPortfolio.titulo}}</h6>
         </div>
     </div>    
     <div class="row">
         <div class="col-10 acercade">
-            <h4 class="mt-4">Acerca de mi </h4>
+            <h4 class="mt-4">About Me </h4>
             <div class="btn-edit"><a href="" class="btn-right"><i class="fa fa-pencil" aria-hidden="true"></i></a></div>
         </div>
         <div class="col-10">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Eaque quis, expedita nobis quia itaque magnam quam odit voluptatibus eum eius dolorum molestias nulla
-        minus provident excepturi,
-        laudantium ducimus harum? Nesciunt.</p>
+        <p>{{miPortfolio.acercaDe}}</p>
         </div>
     </div>
 </div>

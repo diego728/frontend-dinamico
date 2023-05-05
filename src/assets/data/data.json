@@ -1,7 +1,7 @@
 {
     "nombre": "Diego",
     "apellido": "Pereyra",
-    "edad": "37 años",
+    "titulo": "Developer Web Jr",
     "direccion": {
         "ciudad": "Córdoba",
         "pais": "Argentina",
@@ -58,89 +58,78 @@
     ],
     "proyectos": [
         {
-            "titulo": "Calculadora",
+            "titulo": "Calculadora JS",
             "fechaInicio": 2021,
             "fechaFin":2022,
             "pais":"Argentina",
             "localidad":"Cordoba",
-            "imagen": "../../../assets/imagenes/full1.jpg",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque repudiandae mollitia praesentium modi quam iste quod.Quis quia perspiciatis architecto!"
+            "imagen": "../../../assets/imagenes/logo-calculadora-js.png",
+            "info": "Calculadora desarrollada en HTML, CSS y JavaScript, que realiza todas las funciones basicas, con interfaz sencilla y fácil de usar, con una pantalla amplia y botones claros para las operaciones matemáticas..."
         },
         {
-            "nombre": "proyecto2",
-            "foto": "urlFOto2"
-        },
-        {
-            "nombre": "proyecto3",
-            "foto": "urlFOto3"
+            "titulo": "Pomodoro",
+            "fechaInicio": 2021,
+            "fechaFin":2022,
+            "pais":"Argentina",
+            "localidad":"Cordoba",
+            "imagen": "../../../assets/imagenes/pomodoro.png",
+            "info": "La Técnica Pomodoro es usar el tiempo como un valioso aliado para alcanzar lo que se quiere hacer del modo en que se quiere hacer, y permitirnos mejorar continuamente la forma en que trabajamos o estudiamos."
+
         }
     ],
     "hskill": [
         {
-            "nombre": "HTML5",
-            "porcentaje": 90,
-            "foto": "urlfotohtml"
+            "nombre": "Html5",
+            "porcentaje": "90%"
         },
         {
-            "nombre": "CSS3",
-            "porcentaje": 90,
-            "foto": "urlFOtocss"
+            "nombre": "Css3",
+            "porcentaje": "80%"
+
         },
         {
             "nombre": "Java",
-            "porcentaje": 90,
-            "foto": "urlFOtojava"
+            "porcentaje": "75%"
         },
         {
-            "nombre": "Git",
-            "porcentaje": 80,
-            "foto": "urlFOtogit"
+            "nombre": "Git-GitHub",
+            "porcentaje": "75%"
         },
         {
             "nombre": "MySQL",
-            "porcentaje": 90,
-            "foto": "urlFOtomysql"
+            "porcentaje": "80%"
         },
         {
             "nombre": "JavaScript",
-            "porcentaje": 90,
-            "foto": "urlFOtojs"
+            "porcentaje": "60%"
         },
         {
             "nombre": "Angularjs",
-            "porcentaje": 80,
-            "foto": "urlFOtoangular"
+            "porcentaje": "75%"
         }
     ],
     "sskill": [
         {
             "nombre": "TeamWork",
-            "porcentaje": 90,
-            "foto": "urlfototw"
+            "porcentaje": "90%"
         },
         {
             "nombre": "Idea",
-            "porcentaje": 90,
-            "foto": "urlFOtoidea"
+            "porcentaje": "90%"
         },
         {
             "nombre": "Creativity",
-            "porcentaje": 90,
-            "foto": "urlFOtoc"
+            "porcentaje": "90%"
         },
         {
             "nombre": "Time",
-            "porcentaje": 90,
-            "foto": "urlFOtotime"
+            "porcentaje": "90%"
         }
     ],
     "banner": [
-        "urlbanner1",
-        "urlbanner2"
+        "../../../assets/imagenes/banner1.jpg",
+        "../../../assets/imagenes/banner2.jpg"
     ],
-    "fotoPerfil": [
-        "urlfp1",
-        "urlfp2"
-    ],
+    "fotoPerfil": "../../../assets/imagenes/usuario.jpg",     
     "acercaDe": "Si tienes claro desde un principio, qué objetivos quieres conseguir con tu blog y a quién te quieres dirigir, será un punto de partida clave para escribir un buen sobre mi."
 }
