@@ -4,6 +4,36 @@
     background-color: #212529;
     color: antiquewhite;
 }
+.contenedor-bar{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+}
+.nombre-skill{
+    font-weight: bold;
+}
+.bar{
+    display: flex;
+    width: 75%;   
+    justify-content: space-between;
+    align-items: baseline; 
+}
+
+.btn-right{
+    padding-right: 1rem;
+}
+.btn-edit{
+    display: flex;
+    justify-content: space-evenly;
+}
+.progress{
+    display: flex;
+    width: 80%;
+    margin-top: 1rem;
+    background: #87adb6;
+}
 .titulo{
     display: flex;
     justify-content: space-between;
